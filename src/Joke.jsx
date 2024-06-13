@@ -1,8 +1,8 @@
-export default function Joke(props) {
+export default function Joke(JokesData) {
     return(
         <div>
-            <h2>{props.setup}</h2>
-            <p>{props.punchline}</p>
+            <h2>{JokesData.setup}</h2>
+            <p>{JokesData.punchline}</p>
         </div>
     )
 }
